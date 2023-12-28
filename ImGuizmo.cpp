@@ -637,22 +637,22 @@ namespace IMGUIZMO_NAMESPACE
    Style::Style()
    {
       // default values
-      TranslationLineThickness   = 3.0f;
-      TranslationLineArrowSize   = 6.0f;
-      RotationLineThickness      = 2.0f;
-      RotationOuterLineThickness = 3.0f;
-      ScaleLineThickness         = 3.0f;
+      TranslationLineThickness   = 4.0f;
+      TranslationLineArrowSize   = 8.0f;
+      RotationLineThickness      = 3.0f;
+      RotationOuterLineThickness = 4.0f;
+      ScaleLineThickness         = 4.0f;
       ScaleLineCircleSize        = 6.0f;
-      HatchedAxisLineThickness   = 6.0f;
-      CenterCircleSize           = 6.0f;
+      HatchedAxisLineThickness   = 8.0f;
+      CenterCircleSize           = 8.0f;
 
       // initialize default colors
-      Colors[DIRECTION_X]           = ImVec4(0.666f, 0.000f, 0.000f, 1.000f);
-      Colors[DIRECTION_Y]           = ImVec4(0.000f, 0.666f, 0.000f, 1.000f);
-      Colors[DIRECTION_Z]           = ImVec4(0.000f, 0.000f, 0.666f, 1.000f);
-      Colors[PLANE_X]               = ImVec4(0.666f, 0.000f, 0.000f, 0.380f);
-      Colors[PLANE_Y]               = ImVec4(0.000f, 0.666f, 0.000f, 0.380f);
-      Colors[PLANE_Z]               = ImVec4(0.000f, 0.000f, 0.666f, 0.380f);
+      Colors[DIRECTION_X]           = ImVec4(0.976f, 0.510f, 0.518f, 1.000f);
+      Colors[DIRECTION_Y]           = ImVec4(0.530f, 0.659f, 0.537f, 1.000f);
+      Colors[DIRECTION_Z]           = ImVec4(0.535f, 0.700f, 0.854f, 1.000f);
+      Colors[PLANE_X]               = ImVec4(0.976f, 0.510f, 0.518f, 0.380f);
+      Colors[PLANE_Y]               = ImVec4(0.530f, 0.659f, 0.537f, 0.380f);
+      Colors[PLANE_Z]               = ImVec4(0.535f, 0.700f, 0.854f, 0.380f);
       Colors[SELECTION]             = ImVec4(1.000f, 0.500f, 0.062f, 0.541f);
       Colors[INACTIVE]              = ImVec4(0.600f, 0.600f, 0.600f, 0.600f);
       Colors[TRANSLATION_LINE]      = ImVec4(0.666f, 0.666f, 0.666f, 0.666f);
